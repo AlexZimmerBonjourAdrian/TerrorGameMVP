@@ -1,0 +1,1965 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{DA58299F-EB94-4468-6C80-E21FD4D5243D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_2022_3_16;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CROSS_PLATFORM_INPUT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2022.3.16f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="E:\UnityInstalled\2022.3.16f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="E:\UnityInstalled\2022.3.16f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Octave3DScene.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Transform\Rotation\AxisRotationRandomizationSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\SphereColliderExtensions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Configs\Octave3DConfigSaveLoadSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Eraser\Object2DMassEraseSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Raycasting\GridCellRayHit.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Scene\Scene Render Path\ObjectLayersSceneRenderPath.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Selection\ObjectSelectionPaintModeSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Tool Resources\Meshes\ProceduralMeshGeneration.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Prefabs\PrefabView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Entity Filters\EntityFilterProperty.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Transform Axis\TransformAxes.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Snapping\ObjectSnapSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Transform\Rotation\AxisRotationRandomizationModeSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\ObjectPlacementBoxStackSegment.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\ObjectPlacementPathSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Selection\Operations\ObjectSelectionUpdateOperationFactory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Prefabs\PrefabActivationSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Rotation\ObjectKeyboardRotationSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Actions And Queries\Prefab Tags\PrefabTagActions.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Scripts\Arrow.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Camera\CPlayerCam.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Transform\Rotation\CustomAxisMouseRotationSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\EditorGUI\EditorGUIColor.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\XZOrientedQuad3D\XZOrientedQuad3D.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Menu\CPauseMenu.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Transform\CoordinateSystemRenderSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Selection\ObjectSelectionGizmos.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\ObjectPlacementPathBorderSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Decor Paint\DecorPaintObjectPlacementSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\Drag And Drop\FolderToPrefabCreationFolderField.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Snapping\Object2ObjectSnap.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Named Entities\Operations\EntityNameMatchOperationFactory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Camera\View Volume\OrthoCameraViewVolumePointsCalculator.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Prefab Tags\Prefab Tag Database\PrefabTagDatabaseView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Objects\Object Selection\IObjectSelectionRenderer.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Windows\MeshCombineWindow.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Prefabs\PrefabInstantiationSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CEnemySystem.cs" />
+    <Compile Include="Assets\CTutoria.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Block\ObjectPlacementBlockManualConstructionSession.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Prefabs\Prefab Tags\PrefabTagAssociations.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Scale\ObjectScaleRandomizationSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Mirrors\InteractableMirror.cs" />
+    <Compile Include="Assets\JamGame\Scripts\ControllObject\GrabbableObject.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Actions And Queries\Prefabs\PrefabQueries.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Tool Resources\MaterialPool.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\ObjectPlacementPathPaddingSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Box\BoxFacePoints.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Transform\CoordinateSystemAxisRenderSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Salvar-Data\CGameState.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Colliders\Octave3DColliderType.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Raycasting\SpriteRayHit.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Decor Paint\BrushDecorPaintModeObjectPlacementSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Colliders\Octave3DBoxCollider.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Rotation\ObjectKeyboardRotationSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\ObjectPlacementGuideSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Coordinate System\CoordinateSystemAxis.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Masks\ObjectMaskView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Snapping\Object2ObjectBoxSnapData.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Decor Paint\DecorPaintObjectPlacementBrushDatabaseViewData.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Named Entities\INamedEntity.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Camera\View Volume\CameraViewVolume.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Interaction\Snapping\Grid\XZGridCellSizeSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\ObjectOnSurfaceProjectSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Object Placement Data\PathWithTileConnectionsObjectPlacementDataCalculator.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionGrid.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Windows\Octave3DConfigSaveWindow.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Masks\ObjectMask.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Object Placement Data\BlockObjectPlacementDataCalculator.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Snapping\ObjectSnappingLookAndFeelSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\ObjectPlacementPath.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Configs\PrefabConfigSave.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Prefab Categories\PrefabCategoryPrefabScrollView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Shapes\3D\XZOrientedEllipseObjectInteractionShape.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Transform Gizmos\ObjectGizmo.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\ObjectPlacementPathManualConstructionSessionData.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\Vector3Extensions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Box\BoxFaces.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Manager\CManagerRayCast.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\IMessageListener.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Ray3D.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\PrefabMessages.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Interaction\Snapping\Grid\XZGridRenderSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Rotation\ObjectRotationRandomizationSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Spatial Partitioning\Bounding Volume Hierarchies\Sphere Tree\Game Object Tree\GameObjectSphereTree.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Windows\PrefabsToCategoryDropSettingsWindow.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Tile Connections\Tile Connection Configurations\ObjectPlacementPathTileConnectionConfigurationDatabase.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\ObjectPlacementPathManualConstructionSettings.cs" />
+    <Compile Include="Assets\Shared\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Shapes\2D\EllipseObjectInteractionShape.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Eraser\Operations\ObjectMassEraseOperation.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Object Placement Data\BrushModeDecorPaintObjectPlacementDataCalculator.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Prefab Tags\Prefab Tag Database\PrefabTagDatabaseViewData.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Decor Paint\DecorPaintSlopeSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Masks\ObjectLayerObjectMask.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CBeginState.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Named Entities\Operations\CaseInsensitiveEntityNameMatchOperation.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Scale\ObjectScaleRandomizationSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CTimeManager.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Polygon3D.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Transform Sessions\ObjectMouseMoveAlongDirectionSession.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionGridCell.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Block\ObjectPlacementBlockManualConstructionSessionData.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\SmoothFollow.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Spatial Partitioning\Bounding Volume Hierarchies\Sphere Tree\Mesh Tree\MeshSphereTree.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\ObjectPlacementPathMessages.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\GUI\LabelRenderSettingsView.cs" />
+    <Compile Include="Assets\Shared\Scripts\SimpleCharacterMotor.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\ObjectPlacementPathManualHeightAdjustmentSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Colliders\Octave3DTerrainCollider.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Prefabs\PrefabInstantiationSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Selection\Operations\ObjectSelectionUpdateOperationType.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Block\ObjectPlacementBlockManualConstructionSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Decor Paint\DecorPaintObjectPlacementLookAndFeelSettingsView.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Scripts\TimeManager.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Decor Paint\Stroke\SingleModeDecorPaintStroke.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Snapping\ObjectVertexSnapSessionRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Snapping\Object2ObjectBoxSnapDataFactory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Input\MouseCursor.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Interaction\Shapes\XZOrientedEllipseShapeRenderSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\QuaternionExtensions.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Transform Space\TransformSpace.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Block\ObjectPlacementBlockPaddingSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Inspector GUIs\ObjectSnappingInspectorGUI.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\XZOrientedQuad3D\XZOrientedQuad3DPoints.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Objects\Object Pivot Points\SquarePivotPointRenderer.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Groups\ObjectGroupFactory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Spatial Partitioning\Bounding Volume Hierarchies\Sphere Tree\SphereTree.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Decor Paint\DecorPaintObjectPlacementSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Mirroring\Mirroring.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\ListExtensions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Spatial Partitioning\Bounding Volume Hierarchies\Sphere Tree\SerializableSphereTreeNode.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\TransformSnapshot.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Range.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Coordinate System\CoordinateSystemAxes.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Herency\CEnemy.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Transform Space\TransformSpaces.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Scripts\Player.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Selection\ObjectSelectionRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Octave3DWorldBuilder.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Object Placement Guide\ObjectPlacementGuidePrefabUpdate.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Named Entities\SpecializedNamedEntityCollections.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Transform\Rotation\CustomAxisRotationRandomizationSettingsView.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\LerpControlledBob.cs" />
+    <Compile Include="Assets\CPlayerLook.cs" />
+    <Compile Include="Assets\CMissionManager.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Entity Filters\EntityNameFilter.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Snapping\Object2ObjectBoxSnapDatabase.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Box\BoxFace.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Polygon3DQuickHull.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Block\ObjectPlacementBlockManualHeightAdjustmentSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Camera\View Volume\PerspectiveCameraViewVolumePointsCalculator.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Spatial Partitioning\Spatial Trees\Octree\Octree.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Inspector GUIs\InspectorGUIIdentifier.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Square2D.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Interaction\Shapes\RectangleShapeRenderSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Selection\ObjectSelectionPaintModeSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\Drag And Drop\Prefab Drop Data\PrefabsToCategoryDropOperationData.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Controller\CGameEvents.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Interaction\Shapes\EllipseShapeRenderSettingsView.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\TimedObjectDestructor.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\ObjectPlacementMode.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Interaction\Mirrors\InteractableMirrorSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Prefabs\Prefab.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Box\BoxCornerPoints.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\SimpleMouseRotator.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\TimedObjectActivator.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Eraser\Object2DMassEraseShape.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Rotation\ObjectMouseRotationSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\Drag And Drop\Prefab Drop Data\PrefabFolderDropData.cs" />
+    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\ObjectPlacementPathManualHeightAdjuster.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Objects\Object Pivot Points\CirclePivotPointRenderer.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\FollowTarget.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Serializable Collections\SpecializedSerializableDictionaries.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionYAxisRotation.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Prefabs\PrefabFoldersToCategoryDropSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Interaction\Snapping\Grid\XZGridRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\GUIMessages.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\MessageListenerRegistration.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Toolbars\ObjectSelectionActionToolbar.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\ObjectPlacementBoxHideFlags.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Decor Paint\DecorPaintBrushViewData.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionYOffsetVectorCalculator.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Selection\Operations\ObjectSelectionUpdateOperation.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\ObjectPlacementPathManualConstructionRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\EditorGUI\EditorGUILabelWidth.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\ObjectPlacementPathManualConstructionRenderSettingsView.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\AlphaButtonClickMask.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionScaleCalculator.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Inspector GUIs\ObjectSelectionInspectorGUI.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Toolbars\Toolbar.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Decor Paint\DecorPaintObjectPlacementBrushCircleRenderSettingsView.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\CurveControlledBob.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Gizmos API\GizmosMatrix.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\ObjectPlacementMissChance.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Ray2D.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\ToolMessages.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Camera\CameraType.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Decor Paint\Stroke\DecorPaintStroke.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Pivot Points\ObjectPivotPointsRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CFearState.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Undo\UndoEx.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Ellipse2D.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Box\BoxFaceCornerPoints.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CState.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Transform Sessions\ObjectGrabSession.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Block\BlockObjectPlacementSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Projectors\PointsOnColliderProjector.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\ObjectPlacementExtensionPlaneRenderSettingsView.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\DynamicShadowSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Layers\ObjectLayerDatabaseView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Object Placement Data\ObjectPlacementData.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Eraser\ObjectEraser.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Path\ObjectPlacementPathHeightPatternDatabaseView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Transform Gizmos\GizmoType.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Groups\ObjectGroupDatabaseViewData.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Transform\Rotation\RandomRotationValueAxisRandomizationSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Decor Paint\SingleDecorPaintModeObjectPlacementSettings.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Equation.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\ObjectPlacementPathHeightAdjustmentSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\Texture2DExtensions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Windows\Octave3DEditorWindow.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Input\MouseCursorObjectPickFlags.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Interaction\Mirrors\InteractableMirrorRenderSettingsView.cs" />
+    <Compile Include="Assets\Shared\Ramps\Runtime\RampAsset.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Transform\Rotation\RandomRotationStepAxisRandomizationSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\EventExtensions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Decor Paint\Brush\DecorPaintObjectPlacementBrushFactory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Configs\Octave3DConfigLoad.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Rotation\ObjectMouseRotationSettings.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CIdleState.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Transform\Rotation\AxisKeyboardRotationSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\ObjectIntersectionSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Mesh\CSliceable.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\ObjectPlacementExtensionPlane.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Scripts\GrayscaleLayers.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Transform\Rotation\CustomAxisKeyboardRotationSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\BoxColliderExtensions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\TypeExtensions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Configs\PrefabConfigLoad.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\ObjectPlacementPathRenderSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\XZOrientedQuad3D\XZOrientedQuad3DCornerPoint.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Selection\ObjectSelectionMode.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Block\ObjectPlacementBlockManualConstructionRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionTypeSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Inspector GUIs\ObjectPlacementInspectorGUI.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\ObjectGrabSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Box\BoxFacePoint.cs" />
+    <Compile Include="Assets\JamGame\Scripts\ControllObject\GunCamera.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Eraser\Operations\ObjectEraseOperationFactory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\ObjectPlacementPathHeightPatternMessages.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Masks\ObjectCollectionMaskView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\ObjectPlacementPathAutomaticRandomHeightAdjustmentSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Named Entities\Operations\IEntityNameMatchOperation.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Interaction\Snapping\Grid\XZGridDimensionSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Groups\ObjectGroup.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Pivot Points\ProjectedBoxFacePivotPointsRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Decor Paint\DecorPaintMode.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Snapping\ObjectHierarchySnap.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Actions Views\ActionsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Rotation\ObjectRotationRandomizationSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Snapping\Grid\Grid Cell\XZGridCell.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CCharacterKinematics.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Object Placement Box Stack\ObjectPlacementBoxStack.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Eraser\ObjectErase.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\PathObjectPlacementLookAndFeelSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Transform Gizmos\TransformGizmoPivotPoint.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Interaction\Mirrors\InteractableMirrorSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Scene\SceneRenderer.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Camera\View Volume\CameraViewVolumePoint.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Serializable Collections\SerializableDictionary.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Tool Resources\Meshes\ProceduralMeshResources.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Prefab Tags\PrefabTagAssociationsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Path\ObjectPlacementPathHeightPatternDatabaseViewData.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Windows\ObjectLayersWindow.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Scale\ObjectMouseUniformScaleSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\ObjectPlacementLookAndFeelSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Named Entities\NamedEntityCollectionWithEntityMarker.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Point And Click\PointAndClickObjectPlacementSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\ObjectPlacementPathAutomaticRandomHeightAdjuster.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Point And Click\PointAndClickObjectPlacement.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Eraser\ObjectEraseMode.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionSettingsView.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Box\BoxFaceCornerPoint.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Objects\Object Pivot Points\IPivotPointRenderer.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Prefabs\Prefab Tags\PrefabTag.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\EventSystemChecker.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Sounds-Music\CAudioManager.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Selection\Operations\MouseDragObjectSelectionUpdateOperation.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CClimp.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Snapping\ObjectVertexSnapSession.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Actions And Queries\Objects\ObjectActions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Prefab Categories\PrefabCategoryPrefabScrollViewData.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\UndoRedoMessages.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Prefabs\Prefab Tags\PrefabTagDatabase.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Inspector GUIs\InspectorGUI.cs" />
+    <Compile Include="Assets\JamGame\Scripts\FPS.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Entity Filters\EntityNameFilterView.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+    <Compile Include="Assets\CObjective.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Selection\ObjectSelectionBoxRenderModeSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Groups\ObjectGroupView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Eraser\Object3DMassEraseShape.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Pivot.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\PrefabCategoryMessages.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Prefabs\PrefabsToPathTileConectionButtonDropSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Colliders\Octave3DMeshCollider.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Height Patterns\ObjectPlacementPathHeightPatternDatabase.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Spatial Partitioning\Spatial Trees\Octree\PointCloudOctree.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Spatial Partitioning\Bounding Volume Hierarchies\Sphere Tree\SphereTreeNode.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\Message.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Move\ObjectMouseMoveAlongDirectionSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Selection\ObjectSelectionPrefabCreationSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Actions And Queries\Object Placement Box Stack Segment\ObjectPlacementBoxStackSegmentActions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\CapsuleColliderExtensions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Meshes\Octave3DMeshDatabase.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Spatial Partitioning\Bounding Volume Hierarchies\Sphere Tree\SphereTreeNodeRayHit.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Camera\SceneViewCamera.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Manager\CManagerWeapon.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Undo\UndoActionNames.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CHitState.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Transform\Rotation\RandomRotationStepAxisRandomizationSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Height Patterns\ObjectPlacementPathHeightPatternTokenType.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\MeshCombiner.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Snapping\ObjectSnapSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\ObjectSelectionSceneViewEventHandler.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Interaction\Shapes\RectangleShapeRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\ObjectPlacementGuideSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Snapping\ObjectSelectionSnapSession.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Windows\DecorPaintBrushViewLookAndFeelWindow.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Decor Paint\Stroke\DecorPaintStrokeSurfaceType.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\ObjectTransformGizmoMessages.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Eraser\Operations\IObjectEraseOperation.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Mesh\CSword.cs" />
+    <Compile Include="Assets\JamGame\Scripts\ControllObject\GrabObjects.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Decor Paint\DecorPaintObjectPlacement.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Coordinate System\RenderableCoordinateSystem.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Block\ObjectPlacementBlockAutomaticRandomHeightAdjuster.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Transform Sessions\ObjectMouseUniformScaleSession.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Camera\View Volume\CameraViewVolumeEdgeRaysCalculator.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Prefabs\PrefabActivationSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Point And Click\PointAndClickObjectPlacementSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Prefab Categories\ActivePrefabCategoryView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Transform\Rotation\CustomAxisKeyboardRotationSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\ObjectPlacementPathAutomaticPatternHeightAdjustmentSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Block\ObjectPlacementBlockSettings.cs" />
+    <Compile Include="Assets\CPlayerCam.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CPlayerLife.cs" />
+    <Compile Include="Assets\JamGame\Scripts\PickUp\CWeaponPickUp.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Groups\ObjectGroupDatabaseView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Eraser\ObjectEraserLookAndFeelSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Decor Paint\Brush\DecorPaintObjectPlacementBrushCircle.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Serializable Collections\SerializableHashSet.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Windows\PrefabManagementWindow.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Manager\CManagerEnemy.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Shapes\3D\ObjectInteraction3DShape.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Shapes\2D\ObjectInteraction2DShape.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Actions And Queries\Object Selection\ObjectSelectionActions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\StringExtensions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Input\Shortcut Combos\AllShortcutCombos.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Sphere.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Prefab Categories\PrefabWithPrefabCategoryAssociation.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\PrefabTagMessages.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\ObjectPlacementExtensionPlaneRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\EntityView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Tool Resources\ShaderPool.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Spatial Partitioning\Spatial Trees\Octree\VertexWeldOctree.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Decor Paint\SingleDecorPaintModeObjectPlacementSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Tile Connections\Tile Connection Configurations\ObjectPlacementPathTileConnectionConfiguration.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CMovePlayerState.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Prefabs\PrefabsToPathTileConectionButtonDropSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Serializable Collections\SpecializedSerializableHashSets.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Windows\PrefabCategoryScrollViewLookAndFeelWindow.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Grid\XZGridRenderer.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\ColorExtensions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Path\ObjectPlacementPathTileConnectionConfigurationDatabaseView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\PlaneExtensions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Snapping\ObjectVertexSnapSessionRenderSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Height Patterns\ObjectPlacementPathHeightPatternToken.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Height Patterns\ObjectPlacementPathHeightPatternSyntaxValidator.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Control Render Data\PrefabPreviewButtonRenderData.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Scripts\TimeBody.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Rotation\AxisAlignmentSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Actions And Queries\Objects\ObjectQueries.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Selection\ObjectSelection.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\ObjectPlacementPathHeightAdjustmentMode.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\ObjectIntersectionSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Block\ObjectPlacementBlockHeightAdjustmentSettingsView.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\SimpleActivatorMenu.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Colliders\Octave3DColliderRayHit.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Box\BoxPoints.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Groups\ObjectGroupDatabase.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Spatial Partitioning\Bounding Volume Hierarchies\Sphere Tree\SphereTreeNodeFlags.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Transform\Rotation\AxisRotationRandomizationMode.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\TransformExtensions.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CCharacter.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Scripts\Crossbow.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Prefabs\ActivePrefabView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Actions And Queries\Object Placement Box Stack Segment\ObjectPlacementBoxStackSegmentQueries.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Block\ObjectPlacementBlock.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Camera\Object Visibility\CameraPotentialVisibleObjectsBox.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\Drag And Drop\Prefab Drop Operations\PrefabsToCategoryDropOperation.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Selection\ObjectSelectionBoxEdgeRenderMode.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Height Patterns\ObjectPlacementPathHeightPatternValueExtractor.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Eraser\ObjectEraserSettings.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Random\RandomValueGeneration.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Box\Box.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Meshes\Octave3DMesh.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Prefab Tags\PrefabTagSelectionView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Block\ObjectPlacementBlockAutomaticRandomHeightAdjustmentSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\SceneViewEventHandlerFactory.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CPlayer.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Entity Filters\ObjectPlacementPathHeightPatternFilterView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Masks\ObjectLayerObjectMaskViewData.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\Drag And Drop\PrefabsToPathTileConectionDropEventHandler.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\Drag And Drop\Prefab Drop Data\PrefabFoldersToCategoryDropData.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Windows\ObjectGrabSettingsWindow.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\TransformMatrix.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Pivot Points\PivotPointCollection.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Raycasting\MeshRayHit.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Block\ObjectPlacementBlockRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Actions Views\Object Selection\ObjectSelectionActionsViewData.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
+    <Compile Include="Assets\JamGame\Scripts\PickUp\CGenericItem.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Camera\View Volume\CameraViewVolumePointsCalculatorFactory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Decor Paint\DecorPaintObjectPlacementBrushCircleRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Actions And Queries\Prefabs\PrefabActions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Camera\View Volume\CameraViewVolumePointsCalculator.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Decor Paint\Brush\DecorPaintObjectPlacementBrush.cs" />
+    <Compile Include="Assets\JamGame\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionTypeSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\XmlTextWriterExtensions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Height Patterns\ObjectPlacementPathHeightPatternTokenTextValidation.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Height Patterns\ObjectPlacementPathHeightPatternFactory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\RayExtensions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\ObjectPlacement.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\SettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Masks\ObjectCollectionMask.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Interaction\Snapping\Grid\XZGridDimensionType.cs" />
+    <Compile Include="Assets\JamGame\Scripts\ControllObject\PuzzleButton.cs" />
+    <Compile Include="Assets\JamGame\Scripts\ExtrLibrary.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\ObjectPlacementPathManualHeightAdjustmentSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\ObjectPlacementPathHeightAdjustmentSettings.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\ProbabilityTable.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Raycasting\TerrainRayHit.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\ObjectPlacementPathBorderSettings.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Camera\CMoveCamera.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\FPSCounter.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\ObjectEraserSceneViewEventHandler.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CPlayerMovementAdvance.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Herency\CPlayerGeneric.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Tool Resources\Textures\TextureCache.cs" />
+    <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Grid\XZVisibleGridCellRange.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Interaction\Snapping\Grid\ObjectColliderSnapSurfaceGridSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Box\BoxPlaneClassificationResult.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Prefabs\PrefabValidator.cs" />
+    <Compile Include="Assets\TGameManager.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Scene\Scene Render Path\ObjectSelectionSceneRenderPath.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Actions Views\Object Selection\ObjectSelectionActionsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Inspector.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Prefabs\PrefabsToCategoryDropSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Scene\Scene Render Path\ObjectPlacementSceneRenderPath.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Layers\ObjectLayerDatabase.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Block\ObjectPlacementBlockRenderSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Selection\ObjectSelectionUpdateMode.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Box\BoxCornerPoint.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Transform Gizmos\ObjectScaleGizmo.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Selection\ObjectSelectionUpdateModes.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\ObjectPlacementPathManualConstructionSession.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Masks\ObjectCollectionMaskViewData.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Transform\Rotation\CustomAxisRotationRandomizationSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Entity Filters\PrefabTagFilterView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\SpriteRendererExtensions.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Manager\CManagerPlayer.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Snapping\Snap Surface\SnapSurface.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Scene\Scene Render Path\SceneRenderPathType.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionTypeTexturePaths.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Grid\XZVisibleGridCellRangeCalculator.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\XZOrientedEllipse3D.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Decor Paint\Brush\DecorPaintObjectPlacementBrushElement.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Transform\Rotation\AxisMouseRotationSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Block\BlockObjectPlacement.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Effects\CShell.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Prefabs\Prefab Tags\PrefabTagFactory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Windows\EditorWindowPool.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Scene\Scene Render Path\ScenePreparationSceneRenderPath.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Pivot Points\SingleObjectPivotPointRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Selection\ObjectSelectionLookAndFeelSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Mesh\CSlicesMetadata.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Eraser\Operations\HoveredObjectEraseOperation.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Objects\Object Placement\Path\ObjectPlacementPathRenderer.cs" />
+    <Compile Include="Assets\MovementCamera.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Transform Sessions\ObjectMouseRotationSession.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Singleton\CGameManager.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Configs\Octave3DConfigSaveLoadSettings.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Menu\CRespawn.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\ObjectPlacementPathPaddingSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Decor Paint\DecorPaintObjectPlacementBrushView.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+    <Compile Include="Assets\JamGame\Scripts\ControllObject\Door.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\SceneViewEventHandler.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Selection\ObjectSelectionBoxCornerEdgesRenderModeSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Coordinate System\CoordinateSystemRenderer.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\Drag And Drop\DragAndDropEventHandler.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Block\BlockObjectPlacementLookAndFeelSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Masks\ObjectLayerObjectMaskView.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\PlatformSpecificContent.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Prefab Categories\PrefabCategoryFactory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Shapes\2D\RectangleObjectInteractionShape.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Decor Paint\BrushDecorPaintModeObjectPlacementSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\EditorGUI\EditorGUILayoutEx.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CDeathState.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Selection\ObjectSelectionObject2ObjectSnapSession.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Objects\Object Snapping\ObjectVertexSnapSessionRenderer.cs" />
+    <Compile Include="Assets\Shared\Scripts\ProximityActivate.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Decor Paint\DecorPaintObjectPlacementBrushDatabaseView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Block\ObjectPlacementBlockSubdivisionSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Transform Gizmos\ObjectSelectionExtrudeGizmo.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Herency\CGenericBullet.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Input\Shortcut Combos\ShortcutCombo.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Block\ObjectPlacementBlockSubdivisionApplyOperation.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Named Entities\EntityNameMatching.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Decor Paint\Stroke\DecorPaintStrokeSurface.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionRotationCalculator.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\ObjectPlacementPathAutomaticPatternHeightAdjustmentSettings.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Prefabs\PrefabToCategoryDropSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Rotation\ObjectRotationRandomization.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\XZOrientedQuad3D\XZOrientedQuad3DCornerPoints.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Triangle\Triangle3D.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Prefab Categories\PrefabCategoryDatabase.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\Drag And Drop\Prefab Drop Operations\IPrefabsDropOperation.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\ProjectAssetDatabase.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\MessageType.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\DragRigidbody.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Singleton\Singleton.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\SceneViewExtensions.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Scriptable\DataOption.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\ObjectPlacementPathAutomaticRandomHeightAdjustmentSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Decor Paint\Stroke\BrushModeDecorPaintStroke.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Objects\Object Placement\ObjectPlacementExtensionPlaneRenderer.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\ObjectPlacementPathRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\XZOrientedQuad3D\XZOrientedQuad3DPoint.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Prefab Categories\PrefabWithPrefabCategoryAssociationQueue.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Camera\View Volume\CameraViewVolumePlane.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Controller\CDebugWeapon.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\ObjectPlacementPathAutomaticPatternHeightAdjuster.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Interaction\Snapping\Grid\ObjectColliderSnapSurfaceGridSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Block\ObjectPlacementBlockHeightAdjustmentSettings.cs" />
+    <Compile Include="Assets\JamGame\Scripts\PickUp\CAmmo.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionExtrusion.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionSettingsChangeValidation.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Triangle\Triangle3DIntersectInfo.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Tool Resources\ToolResources.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Selection\ObjectSelectionRenderSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Herency\CArmed.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Block\ObjectPlacementBlockPaddingSettings.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Actions And Queries\Object Placement Box Stack\ObjectPlacementBoxStackActions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\ObjectPlacementSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Decor Paint\Brush\DecorPaintObjectPlacementBrushDatabase.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\Drag And Drop\PrefabsToCategoryDropEventHandler.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Pivot Points\ProjectedBoxFacePivotPointsRenderSettingsView.cs" />
+    <Compile Include="Assets\CPlayerMovement.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Effects\CMuzzleFlash.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Input\MouseButton.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Selection\ObjectSelectionShape.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Prefab Tags\Prefab Tag Database\PrefabTagView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Inspector GUIs\ObjectEraseInspectorGUI.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Scriptable\DataPickUp.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Transform Axis\TransformAxis.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Block\ObjectPlacementBlockHeightAdjustmentMode.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\ObjectPlacementMessages.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Block\ObjectPlacementBlockAutomaticRandomHeightAdjustmentSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\PathObjectPlacement.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Windows\Octave3DConfigLoadWindow.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\ObjectPlacementSurfaceInfo.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Snapping\Grid\XZGrid.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Object Placement Guide\PersistentObjectPlacementGuideData.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Box\OrientedBoxRayHit.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\PointPlaneClassificationResult.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Scale\ObjectScaleRandomization.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Block\ObjectPlacementBlockSubdivisionSettings.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Path\ObjectPlacementPathTileConnectionConfigurationDatabaseViewData.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Pivot Points\ProjectedBoxFacePivotPoints.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Selection\ObjectSelectionPrefabCreationSettingsView.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\ObjectPlacementSceneViewEventHandler.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Singleton\CLevelManager.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\EditorGUI\EditorGUIStylesFactory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Rotation\AxisAlignmentSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Input\KeyboardButtonStates.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Scripts\Enemy.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Pivot Points\SingleObjectPivotPointRenderSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Interaction\Mirrors\InteractableMirrorRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Snapping\ObjectVertexSnapSessionState.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Block\ObjectPlacementBlockManualHeightAdjustmentSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\Drag And Drop\PrefabsToDecorPaintBrushEventHandler.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Block\ObjectPlacementBlockProjectionSettings.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\CameraRefocus.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Mirroring\MirroredRotation.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Raycasting\MouseCursorRayHit.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Tool Resources\Meshes\ProceduralMeshFactory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\GameObjectExtensions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Selection\ObjectSelectionShapeType.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Object Placement Data\PathNoTileConnectionsObjectPlacementDataCaculator.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Mesh\CSlicer.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Pivot Points\ObjectPivotPointsRenderSettingsView.cs" />
+    <Compile Include="Assets\CAudio.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Snapping\ObjectSnapping.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Configs\Octave3DConfigSave.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Selection\ObjectSelectionBoxCornerEdgesRenderModeSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Transform\CoordinateSystemAxisRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Prefabs\Prefab Tags\PrefabTagAssociationsFactory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\ObjectPlacementPathManualConstructionSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\Matrix4x4Extensions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Scene\Scene Render Path\SceneRenderPath.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Objects\Object Selection\BoxObjectSelectionRenderer.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Scale\ObjectMouseUniformScaleSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Circle2D.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\ObjectPlacementPathSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Transform Gizmos\ObjectMoveGizmo.cs" />
+    <Compile Include="Assets\CEvent.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Scene\Optimization\MeshCombineSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Configs\PrefabConfigXMLInfo.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Path\ObjectPlacementPathHeightPatternView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Prefab Tags\PrefabTagSelectionViewData.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Named Entities\Operations\CaseSensitiveEntityNameMatchOperation.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Named Entities\NamedEntityCollection.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Tile Connections\Tile Connection Configurations\ObjectPlacementPathTileConnectionConfigurationFactory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Interaction\Mirrors\InteractableMirrorView.cs" />
+    <Compile Include="Assets\JamGame\Scripts\PickUp\CControllerPickup.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Block\ObjectPlacementBlockManualHeightAdjuster.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Height Patterns\ObjectPlacementPathHeightPatternTokenFactory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Interaction\Shapes\XZOrientedEllipseShapeRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Selection\ObjectSelectionSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Actions And Queries\Prefab Categories\PrefabCategoryActions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Gizmos API\GizmosColor.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Transform\Rotation\CustomAxisMouseRotationSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Eraser\Object2DMassEraseSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Path\PathObjectPlacementSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Raycasting\GameObjectRayHit.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Windows\PrefabTagsWindow.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Pivot Points\ObjectPivotPointShapeType.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Decor Paint\DecorPaintSlopeSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Height Patterns\ObjectPlacementPathHeightPattern.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\PathObjectPlacementSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Eraser\Object3DMassEraseSettingsView.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Spatial Partitioning\Bounding Volume Hierarchies\Sphere Tree\Mesh Tree\MeshSphereTreeTriangle.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Scriptable\DataWeapon.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Eraser\Object3DMassEraseSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Block\ObjectPlacementBlockManualConstructionSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Segment3D.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CPatrollingState.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\MessageListenerDatabase.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Prefabs\PrefabFactory.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Controller\CControllerWave.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Objects\Object Pivot Points\PivotPointRendererFactory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\GUI\LabelRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Objects\Object Pivot Points\ProjectedBoxFacePivotPointsRenderer.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Height Patterns\ObjectPlacementPathHeightPatternTokenExtractor.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CDash.cs" />
+    <Compile Include="Assets\Shared\Scripts\AdjustTimeScale.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Prefabs\PrefabPreviewGenerator.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionGridCellIndices.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\MeshColliderExtensions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Gizmos API\GizmosEx.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Scene\Scene Render Path\SceneRenderPathFactory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionTypes.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Prefab Categories\PrefabWithPrefabCategoryAssociationFactory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\ObjectInstantiation.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\MathfEx.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\ActivateTrigger.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Block\ObjectPlacementBlockSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\ObjectPlacementPathBorderApplyOperation.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionDetector.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Toolbars\ObjectSelectionTransformGizmoSelectionToolbar.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\ObjectPlacementBox.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Transform\Rotation\RandomRotationValueAxisRandomizationSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Manager\CManagerPickUp.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Toolbars\ObjectPlacementModeSelectionToolbar.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Box\OrientedBox.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+    <Compile Include="Assets\JamGame\Scripts\ObjecCode\CLogicObject.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Prefab Categories\PrefabCategory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Tool Resources\Textures\PrefabPreviewTextureCache.cs" />
+    <Compile Include="Assets\JamGame\Scripts\ControllObject\Traveler.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Mirrors\Mirror.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionType.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Transform\Rotation\AxisMouseRotationSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\GUIRenderableContent.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Bullet\CBullet.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\ObjectResetter.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Snapping\Snap Surface\SnapSurfaceType.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Prefab Categories\ActivePrefabCategoryViewData.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Scale\ObjectUniformScaleRandomizationSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Objects\Object Placement\Block\ObjectPlacementBlockRenderer.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Object Placement Box Stack\ObjectPlacementBoxStackOverlapData.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Named Entities\UniqueEntityNameGenerator.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Path\ActiveObjectPlacementPathTileConnectionConfigurationView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Assets\Configs\Octave3DConfigXMLInfo.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Entity Filters\PrefabTagFilter.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Spatial Partitioning\Spatial Trees\Octree\OctreeNode.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Transform\CoordinateSystemRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Block\BlockObjectPlacementSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Herency\CUnarmed.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\LayerExtensions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\RectExtensions.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Input\MouseButtonStates.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Interaction\Snapping\Snap Surface\ObjectColliderSnapSurfaceGrid.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Interaction\Shapes\EllipseShapeRenderSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Path\ObjectPlacementPathHeightPatternViewData.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Selection\ObjectSelectionSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Transform\Rotation\AxisKeyboardRotationSettingsView.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\ForcedReset.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Scene\Scene Render Path\ObjectEraseSceneRenderPath.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Move\ObjectMouseMoveAlongDirectionSettingsView.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\WaypointCircuit.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Mirrors\MirroredEntityRenderer.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CCharacterBehaviour.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Menu\CSwitch.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Transform Gizmos\ObjectRotationGizmo.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Windows\ObjectPlacementSettingsWindow.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Path\ObjectPlacementPathOverlappedStackDetection.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Selection\Operations\ClickObjectSelectionUpdateOperation.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Scale\ObjectUniformScaleRandomizationSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Extensions\Vector2Extensions.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\ObjectPlacementSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Inspector GUIs\InspectorGUIIdentifiers.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Placement\Path\Tile Connections\ObjectPlacementPathTileConnectionYAxisRotations.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Utility\FOVKick.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Transform\Coordinate System\CoordinateSystem.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\Object Placement Guide\ObjectPlacementGuide.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Camera\CameraDataSnapshot.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Transform\Rotation\AxisRotationRandomizationModeSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Rotation\AxisAlignment.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Entity Filters\PrefabFilterView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Interaction\Snapping\Grid\XZGridCellSizeSettings.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Objects\Object Selection\ObjectSelectionBoxRenderModeSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Selection\Operations\IObjectSelectionUpdateOperation.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Common\File System\FileSystem.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Eraser\ObjectEraserSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Objects\Object Placement\Block\ObjectPlacementBlockManualConstructionRenderSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\ToolSupervisor.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Entity Views\Objects\Object Placement\Decor Paint\DecorPaintObjectPlacementBrushElementView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\XZOrientedCircle3D.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Math\Box\BoxPoint.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Transform\Rotation\AxisRotationRandomizationSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Toolbars\InspectorGUISelectionToolbar.cs" />
+    <Compile Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Messaging System\ObjectPlacementBlockMessages.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Settings\Model\Interaction\Snapping\Grid\XZGridFiniteDimensionSettings.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Inspector GUI\Views\Settings Views\Prefabs\PrefabFoldersToCategoryDropSettingsView.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Objects\Object Selection\ObjectSelectionRenderer.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Manager\CManagerBullet.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Placement\ObjectPositionCalculator.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Camera\Object Visibility\CameraPotentialVisibleObjectsSphere.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Rendering\Objects\Object Selection\ObjectSelectionRendererFactory.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Entity Filters\ObjectPlacementPathHeightPatternFilter.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Scene\Scene Event Handling\Drag And Drop\Prefab Drop Operations\PrefabFoldersToCategoryDropOperation.cs" />
+    <Compile Include="Assets\JamGame\Scripts\Player\CSlide.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Objects\Object Colliders\Octave3DCollider.cs" />
+    <Compile Include="Assets\JamGame\Octave3D World Builder\Scripts\Entities\Entity Filters\PrefabFilter.cs" />
+    <Compile Include="Assets\JamGame\Scripts\States\CShootPlayerState.cs" />
+    <Compile Include="Assets\JamGame\Scripts\BasicRigidBodyPush.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\VNB - Xmas Mini-Set\ReadMe.txt" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+    <None Include="Assets\JamGame\GrayscaleEffect.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\Projectors\Guidelines.txt" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+    <None Include="Assets\JamGame\Octave3D World Builder\Resources\XZGrid.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\JamGame\3dAssets\MilitaryProps\Milprops_pack_01\Milprops_pack_01\Readme.txt" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\EffectExamples\Magic Effects\Shaders\Ice.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\EffectExamples\Misc Effects\Shaders\Respawn.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\JamGame\Octave3D World Builder\Docs\Version History.txt" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Readme.txt" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\EffectExamples\Misc Effects\Shaders\FireFly.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\JamGame\Octave3D World Builder\Docs\Readme.txt" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\EffectExamples\Misc Effects\Shaders\Dissolve.shader" />
+    <None Include="Assets\JamGame\TimeControll\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PPv2URPConverters">
+      <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
